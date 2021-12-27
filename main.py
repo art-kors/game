@@ -6,7 +6,7 @@ pygame.init()
 FPS = 50
 size = width, height = 500, 500
 screen = pygame.display.set_mode(size)
-
+huy = 15
 
 def load_image(name, colorkey=None):
     fullname = os.path.join('data', name)
